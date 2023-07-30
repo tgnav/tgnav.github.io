@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="noindex, nofollow" />
+<link rel="shortcut icon" href="/assets/images/favicon.png">
+<script src="../assets/js/jquery-1.11.1.min.js"></script>
+<script src="../sw.js"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7353728415772033" crossorigin="anonymous"></script>
+<!--Google Analytics(gtag)-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M50CZY3LGQ"></script>
+<script>
+     window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-M50CZY3LGQ');
+</script>
+<!--Microsoft Clarity-->
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "fpva872c50");
+</script>
+<!--Clicky-->
+<script async src="//static.getclicky.com/101396814.js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101396814ns.gif" /></p></noscript>
+<!--Woopra-->
+<script>
+    !function(){var t,o,c,e=window,n=document,r=arguments,a="script",i=["call","cancelAction","config","identify","push","track","trackClick","trackForm","update","visit"],s=function(){var t,o=this,c=function(t){o[t]=function(){return o._e.push([t].concat(Array.prototype.slice.call(arguments,0))),o}};for(o._e=[],t=0;t<i.length;t++)c(i[t])};for(e.__woo=e.__woo||{},t=0;t<r.length;t++)e.__woo[r[t]]=e[r[t]]=e[r[t]]||new s;(o=n.createElement(a)).async=1,o.src="https://static.woopra.com/js/w.js",(c=n.getElementsByTagName(a)[0]).parentNode.insertBefore(o,c)}("woopra");
+        woopra.config({
+        domain: "tgnav.github.io",
+        outgoing_tracking: true,
+        download_tracking: true,
+        click_tracking: true
+    });
+    woopra.track();
+</script>
+<script>
+    if (navigator.serviceWorker != null) {
+        navigator.serviceWorker.register('/sw.js')
+        .then(function(registration) {
+            console.log('Registered events at scope: ', registration.scope);
+        });
+    }
+</script>
+<title>加载中...</title>
+<style type="text/css">
+body{background:#555}.loading{-webkit-animation:fadein 2s;-moz-animation:fadein 2s;-o-animation:fadein 2s;animation:fadein 2s}@-moz-keyframes fadein{from{opacity:0}to{opacity:1}}@-webkit-keyframes fadein{from{opacity:0}to{opacity:1}}@-o-keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes fadein{from{opacity:0}to{opacity:1}}.spinner-wrapper{position:absolute;top:0;left:0;z-index:300;height:100%;min-width:100%;min-height:100%;background:rgba(255,255,255,0.93)}.spinner-text{position:absolute;top:45%;left:50%;margin-left:-100px;margin-top:2px;color:#000;letter-spacing:1px;font-size:20px;font-family:Arial}.spinner{position:absolute;top:45%;left:50%;display:block;margin-left:-160px;width:1px;height:1px;border:20px solid rgba(255,0,0,1);-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;border-left-color:transparent;border-right-color:transparent;-webkit-animation:spin 1.5s infinite;-moz-animation:spin 1.5s infinite;animation:spin 1.5s infinite}@-webkit-keyframes spin{0%,100%{-webkit-transform:rotate(0deg) scale(1)}50%{-webkit-transform:rotate(720deg) scale(0.6)}}@-moz-keyframes spin{0%,100%{-moz-transform:rotate(0deg) scale(1)}50%{-moz-transform:rotate(720deg) scale(0.6)}}@-o-keyframes spin{0%,100%{-o-transform:rotate(0deg) scale(1)}50%{-o-transform:rotate(720deg) scale(0.6)}}@keyframes spin{0%,100%{transform:rotate(0deg) scale(1)}50%{transform:rotate(720deg) scale(0.6)}}
+</style>
+</head>
+<body>
+<div class="loading">
+  <div class="spinner-wrapper">
+    <span class="spinner-text">正在加载，请稍后...</span>
+    <span class="spinner"></span>
+  </div>
+</div>
+
+<script>
+    //获取请求参数,支持伪静态
+    function GetQueryString(name)
+    {
+         var reg = new RegExp("(^|&)"+ name +"=(.*)$");
+         var r = window.location.search.substr(1).match(reg);
+         if(r!=null) { 
+             return  unescape(r[2]);
+         } else {
+             return window.location.pathname.replace('/go/',''); //注意代码中的/goto/和跳转地址/goto/保持一致，请记得自行修改！
+         }
+    }
+    var url = GetQueryString("url");
+    var jump_url = "https://" + url;
+    document.title = "正在前往：" + url +"...";
+     
+    //延时执行跳转
+    setTimeout(
+    function link_jump()
+    {
+        location.href = jump_url;
+    }, 3000);
+    setTimeout(function(){window.opener=null;window.close();}, 100000);
+    </script>
+</body>
+</html>

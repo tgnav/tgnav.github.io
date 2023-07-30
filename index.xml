@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TGNAV - Telegram频道导航</title>
+    <link>https://tgnav.github.io/</link>
+    <description>Recent content on TGNAV - Telegram频道导航</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language><atom:link href="https://tgnav.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>提交收录说明</title>
+      <link>https://tgnav.github.io/enroll/</link>
+      <pubDate>Sun, 21 May 2023 20:00:00 +0800</pubDate>
+      
+      <guid>https://tgnav.github.io/enroll/</guid>
+      <description>本网站已经开放提交收录，您可以私聊 @tgnavindexbot 自主提交收录。 提交要求 仅收录公开频道/群组； 频道/群组人数不少于1000，创建时间不少于2个月； 灰产，供</description>
+    </item>
+    
+    <item>
+      <title>关于网站</title>
+      <link>https://tgnav.github.io/about/</link>
+      <pubDate>Sat, 22 Apr 2023 20:00:00 +0800</pubDate>
+      
+      <guid>https://tgnav.github.io/about/</guid>
+      <description>TGNAV - Telegram频道导航 TGNAV旨在打造一个高质量Telegram频道导航。 我们非常重视并承诺保护网站访客的隐私，具体请参阅我们的 《隐</description>
+    </item>
+    
+    <item>
+      <title>隐私政策</title>
+      <link>https://tgnav.github.io/privacy-policy/</link>
+      <pubDate>Tue, 31 Jan 2023 20:00:00 +0800</pubDate>
+      
+      <guid>https://tgnav.github.io/privacy-policy/</guid>
+      <description>一、总览 我们非常重视并承诺保护网站访客的隐私，本政策详细阐述了我们对信息的处理方式； 继续浏览本网站即表示您已阅读并同意《隐私政策》； 本网站保</description>
+    </item>
+    
+  </channel>
+</rss>
