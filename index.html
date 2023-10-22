@@ -245,17 +245,17 @@
 			        </li>
 			    
 			        <li >
+				        <a href="https://tgnav.github.io/tgwiki" target="_blank"><i class="fa fa-book fa-lg mr-2"></i><span>TGwiki</span></a>
+				        <ul class="sub-menu"></ul>
+			        </li>
+			    
+			        <li >
 				        <a href="/about" target="_self"><i class="fa fa-info-circle fa-lg mr-2"></i><span>关于网站</span></a>
 				        <ul class="sub-menu"></ul>
 			        </li>
 			    
 			        <li >
 				        <a href="https://github.com/tgnav/tgnav.github.io" target="_blank"><i class="fa fa-code fa-lg mr-2"></i><span>开源地址</span></a>
-				        <ul class="sub-menu"></ul>
-			        </li>
-			    
-			        <li >
-				        <a href="/enroll" target="_blank"><i class="fa fa-file-upload fa-lg mr-2"></i><span>提交收录</span></a>
 				        <ul class="sub-menu"></ul>
 			        </li>
 			    
@@ -315,88 +315,57 @@
             <div id="search-list" class="hide-type-list">
                 <div class="search-group group-a">
                     <ul class="search-type">
-                        <li><input checked="checked" hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="微软 Bing 搜索">
-                            <label for="type-bing"><span class="text-muted">必应</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
-                            <label for="type-baidu"><span class="text-muted">百度</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索">
-                            <label for="type-google"><span class="text-muted">谷歌</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-anaconda"  value="https://anaconda.org/search?q=" data-placeholder="Anaconda 软件搜索">
-                            <label for="type-anaconda"><span class="text-muted">软件</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-pubmed" value="https://pubmed.ncbi.nlm.nih.gov/?term=" data-placeholder="PubMed 搜索/文章标题/关键字">
-                            <label for="type-pubmed"><span class="text-muted">文献</span></label></li>
+                        <li><input checked="checked" hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="微软 Bing 搜索"><label for="type-bing"><span class="text-muted">必应</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道"><label for="type-baidu"><span class="text-muted">百度</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索"><label for="type-google"><span class="text-muted">谷歌</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-anaconda"  value="https://anaconda.org/search?q=" data-placeholder="Anaconda 软件搜索"><label for="type-anaconda"><span class="text-muted">软件</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-pubmed" value="https://pubmed.ncbi.nlm.nih.gov/?term=" data-placeholder="PubMed 搜索/文章标题/关键字"><label for="type-pubmed"><span class="text-muted">文献</span></label></li>
                     </ul>
                 </div>
                 <div class="search-group group-b ">
                     <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
-                            <label for="type-baidu1"><span class="text-muted">百度</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索">
-                            <label for="type-google1"><span class="text-muted">谷歌</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360 好搜">
-                            <label for="type-360"><span class="text-muted">360</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索">
-                            <label for="type-sogo"><span class="text-muted">搜狗</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="微软 Bing 搜索">
-                            <label for="type-bing1"><span class="text-muted">必应</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-sm" value="https://yz.m.sm.cn/s?q=" data-placeholder="UC 移动端搜索">
-                            <label for="type-sm"><span class="text-muted">神马</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-baidu1" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道"><label for="type-baidu1"><span class="text-muted">百度</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-google1" value="https://www.google.com/search?q=" data-placeholder="谷歌搜索"><label for="type-google1"><span class="text-muted">谷歌</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360 好搜"><label for="type-360"><span class="text-muted">360</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索"><label for="type-sogo"><span class="text-muted">搜狗</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-bing1" value="https://cn.bing.com/search?q=" data-placeholder="微软 Bing 搜索"><label for="type-bing1"><span class="text-muted">必应</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-sm" value="https://yz.m.sm.cn/s?q=" data-placeholder="UC 移动端搜索"><label for="type-sm"><span class="text-muted">神马</span></label></li>
                     </ul>
                 </div>
                 <div class="search-group group-c ">
                     <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" id="type-br" value="https://rank.chinaz.com/all/" data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-br"><span class="text-muted">权重查询</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-links" value="https://link.chinaz.com/" data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-links"><span class="text-muted">友链检测</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-icp"><span class="text-muted">备案查询</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-ping" value="https://ping.chinaz.com/" data-placeholder="请输入网址(不带 https://)">
-                            <label for="type-ping"><span class="text-muted">PING 检测</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-404" value="https://tool.chinaz.com/Links/?DAddress=" data-placeholder="请输入网址(不带https://)">
-                            <label for="type-404"><span class="text-muted">死链检测</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-ciku" value="https://www.ciku5.com/s?wd=" data-placeholder="请输入关键词">
-                            <label for="type-ciku"><span class="text-muted">关键词挖掘</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-br" value="https://rank.chinaz.com/all/" data-placeholder="请输入网址(不带 https://)"><label for="type-br"><span class="text-muted">权重查询</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-links" value="https://link.chinaz.com/" data-placeholder="请输入网址(不带 https://)"><label for="type-links"><span class="text-muted">友链检测</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="请输入网址(不带 https://)"><label for="type-icp"><span class="text-muted">备案查询</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-ping" value="https://ping.chinaz.com/" data-placeholder="请输入网址(不带 https://)"><label for="type-ping"><span class="text-muted">PING 检测</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-404" value="https://tool.chinaz.com/Links/?DAddress=" data-placeholder="请输入网址(不带https://)"><label for="type-404"><span class="text-muted">死链检测</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-ciku" value="https://www.ciku5.com/s?wd=" data-placeholder="请输入关键词"><label for="type-ciku"><span class="text-muted">关键词挖掘</span></label></li>
                     </ul>
                 </div>
                 <div class="search-group group-d ">
                     <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&q=" data-placeholder="知乎">
-                            <label for="type-zhihu"><span class="text-muted">知乎</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-wechat" value="https://weixin.sogou.com/weixin?type=2&query=" data-placeholder="微信">
-                            <label for="type-wechat"><span class="text-muted">微信</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-weibo" value="https://s.weibo.com/weibo/" data-placeholder="微博">
-                            <label for="type-weibo"><span class="text-muted">微博</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣">
-                            <label for="type-douban"><span class="text-muted">豆瓣</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&q=" data-placeholder="知乎"><label for="type-zhihu"><span class="text-muted">知乎</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-wechat" value="https://weixin.sogou.com/weixin?type=2&query=" data-placeholder="微信"><label for="type-wechat"><span class="text-muted">微信</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-weibo" value="https://s.weibo.com/weibo/" data-placeholder="微博"><label for="type-weibo"><span class="text-muted">微博</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣"><label for="type-douban"><span class="text-muted">豆瓣</span></label></li>
                     </ul>
                 </div>
                 <div class="search-group group-e ">
                     <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" id="type-taobao1" value="https://s.taobao.com/search?q=" data-placeholder="淘宝">
-                            <label for="type-taobao1"><span class="text-muted">淘宝</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-jd" value="https://search.jd.com/Search?keyword=" data-placeholder="京东">
-                            <label for="type-jd"><span class="text-muted">京东</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-xiachufang" value="https://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房">
-                            <label for="type-xiachufang"><span class="text-muted">下厨房</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&s=" data-placeholder="香哈菜谱">
-                            <label for="type-xiangha"><span class="text-muted">香哈菜谱</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-12306" value="https://www.12306.cn/?" data-placeholder="12306">
-                            <label for="type-12306"><span class="text-muted">12306</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-qunar" value="https://www.qunar.com/?" data-placeholder="去哪儿">
-                            <label for="type-qunar"><span class="text-muted">去哪儿</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-taobao1" value="https://s.taobao.com/search?q=" data-placeholder="淘宝"><label for="type-taobao1"><span class="text-muted">淘宝</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-jd" value="https://search.jd.com/Search?keyword=" data-placeholder="京东"><label for="type-jd"><span class="text-muted">京东</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-xiachufang" value="https://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房"><label for="type-xiachufang"><span class="text-muted">下厨房</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&s=" data-placeholder="香哈菜谱"><label for="type-xiangha"><span class="text-muted">香哈菜谱</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-12306" value="https://www.12306.cn/?" data-placeholder="12306"><label for="type-12306"><span class="text-muted">12306</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-qunar" value="https://www.qunar.com/?" data-placeholder="去哪儿"><label for="type-qunar"><span class="text-muted">去哪儿</span></label></li>
                     </ul>
                 </div>
                 <div class="search-group group-f ">
                     <ul class="search-type">
-                        <li><input hidden="" type="radio" name="type" id="type-zhaopin" value="https://sou.zhaopin.com/jobs/searchresult.ashx?kw=" data-placeholder="智联招聘">
-                            <label for="zhaopin"><span  class="text-muted">智联招聘</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-51job" value="https://search.51job.com/?" data-placeholder="前程无忧">
-                            <label for="type-51job"><span class="text-muted">前程无忧</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-lagou" value="https://www.lagou.com/jobs/list_" data-placeholder="拉钩网">
-                            <label for="type-lagou"><span class="text-muted">拉钩网</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-liepin" value="https://www.liepin.com/zhaopin/?key=" data-placeholder="猎聘网">
-                            <label for="type-liepin"><span class="text-muted">猎聘网</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-zhaopin" value="https://sou.zhaopin.com/jobs/searchresult.ashx?kw=" data-placeholder="智联招聘"><label for="zhaopin"><span  class="text-muted">智联招聘</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-51job" value="https://search.51job.com/?" data-placeholder="前程无忧"><label for="type-51job"><span class="text-muted">前程无忧</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-lagou" value="https://www.lagou.com/jobs/list_" data-placeholder="拉钩网"><label for="type-lagou"><span class="text-muted">拉钩网</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-liepin" value="https://www.liepin.com/zhaopin/?key=" data-placeholder="猎聘网"><label for="type-liepin"><span class="text-muted">猎聘网</span></label></li>
                     </ul>
                 </div>
             </div>
@@ -414,14 +383,12 @@
                         <div class="carousel-inner" role="listbox">
                             <div class="carousel-item active"><a class="overflowClip_1" href="./about">TGNAV - Telegram频道导航。收录Telegram上的优质频道，打造一个高质量Telegram频道导航。</a></div>
                             <div class="carousel-item "><a class="overflowClip_1" href="https://github.com/tgnav/tgnav.github.io" target="_blank">本网站源代码已经在GitHub上开源！Star支持一下吧！</a></div>
-                            <div class="carousel-item "><a class="overflowClip_1" href="https://afdian.net/a/awaowo" target="_blank">网站的维护需要一定的人力物力，点击此处赞助我们，为爱发电！</a></div>
+                            <div class="carousel-item "><a class="overflowClip_1" href="https://tgnav.github.io/tgwiki" target="_blank">TGwiki：由TGNAV打造的高质量Telegram知识库，帮助用户更科学地使用Telegram。点击查看~</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="flex-fill"></div>
-                <a title="关闭" href="javascript:;" rel="external nofollow" class="bulletin-close"
-                    onclick="$('#bulletin_box').slideUp('slow');"><i class="iconfont icon-close"
-                        style="line-height:25px"></i></a>
+                <a title="关闭" href="javascript:;" rel="external nofollow" class="bulletin-close" onclick="$('#bulletin_box').slideUp('slow');"><i class="iconfont icon-close" style="line-height:25px"></i></a>
             </div>
         </div>
     </div>
@@ -535,6 +502,17 @@
                 <h4 class="text-gray text-lg mb-4"><i class="site-tag iconfont icon-tag icon-lg mr-1" id="09246b64a05be283d41e390fe8f66e93"></i>电报入门</h4>
             </div>
             <div class="row">
+                <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a"><div class="url-body default">
+			        <a href="https://tgnav.github.io/tgwiki" target="_blank" data-id="" data-url="https://tgnav.github.io/tgwiki" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="由TGNAV打造的高质量Telegram知识库">
+			            <div class="card-body"><div class="url-content d-flex align-items-center"><div class="url-info flex-fill">
+                            <div class="text-sm overflowClip_1"><strong>TGwiki</strong></div><p class="overflowClip_1 m-0 text-muted text-xs">由TGNAV打造的高质量Telegram知识库</p>
+                        </div></div></div>
+                    </a>
+                    <a href="https://tgnav.github.io/tgwiki" class="togo text-center text-muted is-views" data-id="689" data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                        <i class="iconfont icon-goto"></i>
+                    </a></div>
+                </div>
+            
                 <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a"><div class="url-body default">
 			        <a href="/go?url=tgcnz" target="_blank" data-id="" data-url="/go?url=tgcnz" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="Telegram中文/汉化/知识/教程">
 			            <div class="card-body"><div class="url-content d-flex align-items-center"><div class="url-info flex-fill">
@@ -2895,6 +2873,8 @@
     <h4 class="text-gray text-lg mb-4"><i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接</h4>
     <div class="friendlink text-xs card"><div class="card-body">
 	    <a href="/link?url=afdian.net/a/awaowo" title="您的赞助是我们前进的动力！" target="_blank" rel="nofollow">赞助我们</a>
+	
+	    <a href="https://tgnav.github.io/tgwiki" title="由TGNAV打造的高质量Telegram知识库" target="_blank" rel="nofollow">TGwiki</a>
 	
 	    <a href="/link?url=meow.tg" title="最懂你的TG搜索" target="_blank" rel="nofollow">TG喵</a>
 	

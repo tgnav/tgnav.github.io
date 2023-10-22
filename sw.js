@@ -2,7 +2,7 @@ const CACHE_NAME = 'TGNAVCache';
 
 let cachelist = [];
 
-const cachetime = 12*60*60*1000;
+const cachetime = 24*60*60*1000;
 
 self.CACHE_NAME = 'SWHelperCache';
 self.db = {
@@ -110,14 +110,14 @@ const set_newest_version = async (mirror) => {
     return lfetch(mirror, mirror[0])
         .then(res => res.json())
         .then(async res => {
-            let thisVersion = await db.read("blog_version");
+            let thisVersion = await db.read("site_version");
             console.info("[INFO] 当前版本: "+ thisVersion);
             console.info("[INFO] 最新版本: "+res.version);
             if (thisVersion != res.version) {
                 // 版本有更新 向页面展示
-                broadcast("Blog Update", "REFRESH");
+                broadcast("Site Update", "REFRESH");
             }
-            await db.write('blog_version', res.version);
+            await db.write('site_version', res.version);
             return;
         });
 }
@@ -131,8 +131,6 @@ const handle = async function (req) {
     let urls = []
 
     if (req.method == "GET" && (domain == "tgnav.github.io" || domain == "localhost")) {
-        /* 是 Blog & 且资源为 Get */
-        /* 根据 Blog 的路径情况修改了下 fullpath 函数 */
         const fullpath = (path) => {
             path = path.split('?')[0].split('#')[0]
             if (path.match(/\/$/)) {

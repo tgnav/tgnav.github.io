@@ -1,0 +1,207 @@
+/*
+Theme Name: HUGE
+Description: Creative Coming Soon Template
+Author: SquirrelLabs
+Author URI: https://themeforest.net/user/squirrellabs/portfolio?ref=SquirrelLab
+Version: 1.0
+License: https://themeforest.net/licenses/standard
+
+---
+
+/*******************************
+  Table of Contents
+
+  1.0 General Styles
+  2.0 Content Styles
+*******************************/
+
+/**********************************/
+/******* 1.0 General Styles *******/
+/**********************************/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html{
+  min-height: 100%;
+  height: 100%;
+}
+body {
+  background: #f6f6f8;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+/**********************************/
+/******* 2.0 Content Styles *******/
+/**********************************/
+.relative {
+  text-align: center;
+  position: relative;
+  z-index: 11
+}
+h1 {
+  color: #111215;
+  font-size: 40vh;
+  position: relative;
+  font-weight: 100;
+  margin: 3vw 0 7vw;
+}
+h2{
+  color: #252629;
+  font-weight: 500;
+  margin-bottom: 2vw;
+}
+a {
+  padding: 4px 25px 4px 4px;
+  background: #e1e3e5;
+  color: #343639;
+  font-size: 14px;
+  line-height: 40px;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+a:hover {
+  opacity: 0.8;
+}
+svg {
+  height: 16px;
+  width: 16px;
+  padding: 12px;
+  margin-right: 10px;
+  background: rgba(255, 255, 255, .4);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  float: left;
+}
+.circle {
+  left: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  animation-direction: alternate;
+}
+.circle:after {
+  content: '';
+  background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.2) 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.2) 100%);
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.2) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#33ffffff', GradientType=1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.circle.sunset {
+  width: 19.71721547vh;
+  height: 19.71721547vh;
+  top: -19.71721547vh;
+  background: #00d2ff;
+  background: #FF5F6D;
+  background: -webkit-linear-gradient(-45deg, #FFC371, #FF5F6D);
+  background: linear-gradient(-45deg, #FFC371, #FF5F6D);
+  animation: orb1 30s cubic-bezier(0.27, 0.96, 0.58, 1) alternate infinite;
+  opacity: 0.81893813;
+}
+.circle.coolice {
+  background: #4CA1AF;
+  background: -webkit-linear-gradient(-45deg, #C4E0E5, #4CA1AF);
+  background: linear-gradient(-45deg, #C4E0E5, #4CA1AF);
+  width: 14.73660403vh;
+  height: 14.73660403vh;
+  top: -14.73660403vh;
+  animation: orb2 26s cubic-bezier(0.27, 0.96, 0.58, 1) alternate infinite;
+  opacity: 0.60105231;
+}
+.circle.timber {
+  background: #fc00ff;
+  background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
+  background: linear-gradient(45deg, #00dbde, #fc00ff);
+  width: 23.45698356vh;
+  height: 23.45698356vh;
+  top: -23.45698356vh;
+  animation: orb3 43s cubic-bezier(0.27, 0.96, 0.58, 1) alternate infinite;
+  opacity: 0.86555096;
+}
+.circle.pig {
+  background: #ee9ca7;
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  width: 19.3966873vh;
+  height: 19.3966873vh;
+  top: -19.3966873vh;
+  animation: orb4 32s cubic-bezier(0.27, 0.96, 0.58, 1) alternate infinite;
+  opacity: 0.85714533;
+}
+.circle.friday {
+  background: #83a4d4;
+  background: -webkit-linear-gradient(84deg, #b6fbff, #83a4d4);
+  background: linear-gradient(84deg, #b6fbff, #83a4d4);
+  width: 4.5730166vh;
+  height: 4.5730166vh;
+  top: -4.5730166vh;
+  animation: orb5 40s cubic-bezier(0.27, 0.96, 0.58, 1) alternate infinite;
+  opacity: 0.80555259;
+}
+@keyframes orb1 {
+  0% {
+    transform: translatey(150vh) translatex(0vw);
+  }
+  100% {
+    transform: translatey(-14.61170804vh) translatex(144.06001722vw);
+  }
+}
+@keyframes orb2 {
+  0% {
+    transform: translatey(0vh) translatex(60vw);
+  }
+  100% {
+    transform: translatey(73.54784271vh) translatex(193.67924086vw);
+  }
+}
+@keyframes orb3 {
+  0% {
+    transform: translatey(70vh) translatex(70vw);
+  }
+  100% {
+    transform: translatey(56.58155836vh) translatex(50vw);
+  }
+}
+/* 资源PRO - ZiYuanPro.Com - 免费分享精品资源网站 */
+@keyframes orb4 {
+  0% {
+    transform: translatey(50vh) translatex(10vw);
+  }
+  100% {
+    transform: translatey(79.19494351vh) translatex(1.58445831vw);
+  }
+}
+@keyframes orb5 {
+  0% {
+    transform: translatey(80vh) translatex(80vw);
+  }
+  100% {
+    transform: translatey(106.07528083vh) translatex(62.40398788vw);
+  }
+}
+.headercontent {
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  z-index: 1;
+}
