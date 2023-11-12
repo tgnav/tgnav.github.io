@@ -82,15 +82,15 @@ img {max-inline-size: 100%;block-size: auto;inline-size: 100%;}
             return window.location.pathname.replace('/go/',''); //注意代码中的/goto/和跳转地址/goto/保持一致，请记得自行修改！
         }
     }
-    var url = GetQueryString("url");
-    var jump_url = "https://t.me/" + url;
-    document.title = "正在跳转至@" + url +"...";
+    var username = GetQueryString("username");
+    var jump_username = "https://t.me/" + username;
+    document.title = "正在跳转至@" + username +"...";
     //延时执行跳转
     setTimeout(
     function link_jump()
     {
-        if(url == "recommend3") { location.href = "https://t.me/+AEbrX4rncHU1ZWRl"; }
-        else{ location.href = jump_url; }
+        if(username == "recommend3") { location.href = "https://t.me/+AEbrX4rncHU1ZWRl"; }
+        else{ location.href = jump_username; }
     }, 5000);
     setTimeout(function(){window.opener=null;window.close();}, 100000);
 </script>
