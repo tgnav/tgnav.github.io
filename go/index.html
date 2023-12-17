@@ -74,13 +74,10 @@ img {max-inline-size: 100%;block-size: auto;inline-size: 100%;}
     //获取请求参数,支持伪静态
     function GetQueryString(name)
     {
-        var reg = new RegExp("(^|&)"+ name +"=(.*)$");
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
         var r = window.location.search.substr(1).match(reg);
-        if(r!=null) { 
-            return  unescape(r[2]);
-        } else {
-            return window.location.pathname.replace('/go/',''); //注意代码中的/goto/和跳转地址/goto/保持一致，请记得自行修改！
-        }
+        if(r!=null) { return  unescape(r[2]); }
+        else { return window.location.pathname.replace('/go/',''); }
     }
     var username = GetQueryString("username");
     var jump_username = "https://t.me/" + username;
@@ -90,7 +87,7 @@ img {max-inline-size: 100%;block-size: auto;inline-size: 100%;}
     function link_jump()
     {
         if(username == "recommend3") { location.href = "https://t.me/+AEbrX4rncHU1ZWRl"; }
-        else{ location.href = jump_username; }
+        else { location.href = jump_username; }
     }, 5000);
     setTimeout(function(){window.opener=null;window.close();}, 100000);
 </script>
