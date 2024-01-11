@@ -4,6 +4,8 @@ TGNAV - Telegram频道导航。收录Telegram上的优质频道，打造一个�
 
 **Star本仓库支持一下吧！**
 
+点击按钮将网站分享给你的TG好友/群组/频道： <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-share-url="https://tgnav.github.io/" data-comment="我发现了个Telegram导航，里面收录了超多优质频道，快来看看吧！"></script>
+
 ### 网站地址：[传送门](https://tgnav.github.io/)
 
 更多信息请查看： [关于网站](https://tgnav.github.io/about)
