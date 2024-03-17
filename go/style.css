@@ -74,7 +74,7 @@ to{-webkit-transform:rotate(364deg);transform:rotate(364deg)}
 }
 
 .box {
-  width: 400px;
+  width: 350px;
   height: 250px;
   background: #fff;
   border-radius: 18px;
@@ -87,7 +87,7 @@ to{-webkit-transform:rotate(364deg);transform:rotate(364deg)}
 .box .box__description .box__description-container {
   color: #000;
   text-align: center;
-  width: 300px;
+  width: 250px;
   font-size: 16px;
   margin: 0 auto;
 }
