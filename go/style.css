@@ -98,7 +98,7 @@ to{-webkit-transform:rotate(364deg);transform:rotate(364deg)}
 .box .box__description .box__description-container .box__description-text {
   color: #444;
   line-height: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .box .box__description .box__button {
   display: block;
@@ -116,7 +116,7 @@ to{-webkit-transform:rotate(364deg);transform:rotate(364deg)}
   font-size: 16px;
   padding: 5px 10px;
   white-space: nowrap;
-  margin-top: 50px;
+  margin-top: 30px;
   transition: transform .5s ease;
   overflow: hidden;
 }
