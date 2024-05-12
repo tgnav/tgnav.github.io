@@ -419,11 +419,11 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
     }
 })();
 
-$("#search-bg").css("background-image", "url(\/assets\/images\/2024.jpeg)");   
+$("#search-bg").css("background-image", "url(\/assets\/images\/background.png)");   
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
     if(night == '0'){
-	$("#search-bg").css("background-image", "url(\/assets\/images\/2024.jpeg)");
+	$("#search-bg").css("background-image", "url(\/assets\/images\/background.png)");
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
@@ -432,7 +432,7 @@ function switchNightMode(){
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
-	$("#search-bg").css("background-image", "url(\/assets\/images\/2024.jpeg)")
+	$("#search-bg").css("background-image", "url(\/assets\/images\/background.png)")
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
