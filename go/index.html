@@ -121,8 +121,8 @@
                 if (result.isConfirmed) {window.location.href = "https://t.me/"+username;}
                 if (result.isDenied) {window.opener=null;window.close();}
             });
-        },7000)
-        setTimeout(function(){window.opener=null;window.close();}, 20000);
+        },5000)
+        setTimeout(function(){window.opener=null;window.close();}, 15000);
     }
     else{
         Swal.fire({icon: "error",title: "错误",text: "链接参数错误，3秒后返回首页"});
