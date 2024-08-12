@@ -112,7 +112,7 @@
     var jump_url = encrypt.decode("dGduYXYuZ2l0aHViLmlv");
     var domain = window.location.host;
     document.title = "正在跳转至@" + username +"...";
-    if((domain == jump_url || domain == "127.0.0.1:1313") && jump_username != "tg://resolve?domain=")
+    if((domain == jump_url || domain == "localhost:1313") && jump_username != "tg://resolve?domain=")
     {
         setTimeout(function()
         {
@@ -122,7 +122,7 @@
                 if (result.isConfirmed) {window.location.href = "https://t.me/"+username;}
                 if (result.isDenied) {window.opener=null;window.close();}
             });
-        },7000)
+        },5000)
         setTimeout(function(){window.opener=null;window.close();}, 20000);
     }
     else{

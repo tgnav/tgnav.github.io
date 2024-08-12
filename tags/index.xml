@@ -5,6 +5,7 @@
     <link>https://tgnav.github.io/tags/</link>
     <description>Recent content in Tags on TGNAV - Telegram频道导航</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language><atom:link href="https://tgnav.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-CN</language>
+    <atom:link href="https://tgnav.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
