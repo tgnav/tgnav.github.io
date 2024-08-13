@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TGNAV - Telegram频道导航</title>
+    <title>TGNAV - Telegram频道群组导航</title>
     <link>https://tgnav.github.io/</link>
-    <description>Recent content on TGNAV - Telegram频道导航</description>
+    <description>Recent content on TGNAV - Telegram频道群组导航</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <atom:link href="https://tgnav.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于网站</title>
+      <link>https://tgnav.github.io/about/</link>
+      <pubDate>Mon, 12 Aug 2024 20:00:00 +0800</pubDate>
+      <guid>https://tgnav.github.io/about/</guid>
+      <description>TGNAV - Telegram频道群组导航 TGNAV收录整理了Telegram上的许多优质频道、群组、机器人，旨在打造一个高质量Telegram导航，</description>
+    </item>
     <item>
       <title>赞助我们</title>
       <link>https://tgnav.github.io/donate/</link>
@@ -22,18 +29,18 @@
       <description>本网站已经开放提交收录，您可以将您的频道/群组提交收录到TGNAV，并获得更多订阅者。 TGQRY - 由TGNAV打造的Telegram索引机器人，帮助</description>
     </item>
     <item>
+      <title></title>
+      <link>https://tgnav.github.io/group/</link>
+      <pubDate>Sun, 17 Dec 2023 20:00:00 +0800</pubDate>
+      <guid>https://tgnav.github.io/group/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>隐私政策</title>
       <link>https://tgnav.github.io/privacy-policy/</link>
       <pubDate>Sun, 17 Dec 2023 20:00:00 +0800</pubDate>
       <guid>https://tgnav.github.io/privacy-policy/</guid>
       <description>TGNAV尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，我们会按照本隐私权政策的规定使用和披露您的个人信息。</description>
-    </item>
-    <item>
-      <title>关于网站</title>
-      <link>https://tgnav.github.io/about/</link>
-      <pubDate>Sat, 16 Dec 2023 20:00:00 +0800</pubDate>
-      <guid>https://tgnav.github.io/about/</guid>
-      <description>TGNAV - Telegram频道导航 TGNAV旨在打造一个高质量Telegram频道导航。 我们非常重视并承诺保护网站访客的隐私，具体请参阅我们的 《隐</description>
     </item>
   </channel>
 </rss>
