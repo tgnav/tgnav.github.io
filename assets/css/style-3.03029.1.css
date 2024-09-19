@@ -468,6 +468,47 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .btn-search.current:after{content:"";position:absolute;bottom:-17px;left:0;right:0;margin:0 auto;width:0;border:10px solid transparent;border-top-color:#f1404b}
 
 /*--------------------------------------------------------------
+## word style
+--------------------------------------------------------------*/
+.header-big .word { display: flex;margin: 20px 0 10px 0; justify-content: center;flex-wrap: wrap;padding-left: 20px;
+    padding-right: 20px;}
+
+@media screen and (min-width: 1000px) {.header-big .word .wordsub {padding: 0px 8px 0px;height: 34px;border-radius: 18px;background-color: rgba(0, 0, 0, 0.3);display: flex;
+    align-items: center;margin-left: 1rem;margin: 0 5px 5px 5px; }}
+    /* width: 20% !important; */
+.header-big .word .wordsub {padding: 0px 8px 0px;height: 35px;border-radius: 18px;background-color: rgba(0, 0, 0, 0.3);display: flex;
+        align-items: center;margin-left: 1rem;margin: 0 5px 5px 5px;   
+       }
+.header-big .word .wordsub:after {
+    content: '.';
+    height: 0;
+    display: block;
+    clear: both;
+} 
+.header-big .word .wordsub .wordname {word-break: break-all;color: #fff;font-size: .8rem !important;  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;}
+.header-big .word .wordsub .wordicon {width: 20px;height: 20px;border-radius: 10px;margin-right: 6px;}
+.url-font{
+    font-size: 1.3rem;
+    text-align: center;
+    color: whitesmoke;
+    font-style: initial;
+    font-family: none;
+    margin-bottom: 12px;
+}
+.header-big2{
+    content:" ";
+    display:block;/*转换为一个块元素*/
+    clear:both;
+    color: transparent;
+    
+}
+@media screen and (min-width: 1200px) {.header-big2{
+    height: 0;
+}}
+
+/*--------------------------------------------------------------
 ## custom style
 --------------------------------------------------------------*/
 .text-break-all{word-break:break-all}
@@ -500,12 +541,12 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .big-header-banner:not(.header-bg) .header-mini-btn path{stroke:#eee}
 .big-header-banner:not(.header-bg) .page-header .navbar-nav>li>a:hover,.big-header-banner:not(.header-bg) .navbar-menu a:not(.dropdown-item):hover{color:#fff;}
 .big-header-banner:not(.header-bg) .header-mini-btn label:hover path{stroke:#fff}
-.header-big{position:relative;margin-top:-75px;padding-top:30px;padding-bottom:60px}
+.header-big{position:relative;margin-top:-75px;padding-top:30px;padding-bottom:10px}
 .header-big.bg-gradual:before{content: "";position: absolute;left: 0;height: 80px;right: 0;bottom: 0;background-image: linear-gradient(to top,#f9f9f9 0%,transparent 80%);transition:.3s}
 .header-big.css-img,.header-big.css-bing{background-color:#1b1d1f;background-size:cover;background-position:cover}
 .header-big.canvas-fx{background-color:#1b1d1f}
-.post-top{padding-bottom:10px}
-.header-big.no-bg{padding-bottom:10px}
+.post-top{padding: bottom 10px }
+.header-big.no-bg{padding-bottom:10px}  
 .header-big.css-color{background-size:400%;background-position:0% 100%;-webkit-animation:gradient 7.5s ease-in-out infinite;animation:gradient 7.5s ease-in-out infinite}
 @-webkit-keyframes gradient{50%{background-position:100% 0}
 }
@@ -548,7 +589,7 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big.no-bg #search-text{color:#fff;border:none;background-color:rgba(0,0,0,0.2)!important}
 .header-big.no-bg .search-type input:checked+label:before{border-color:rgba(0,0,0,0.2) transparent transparent}
 .header-big .search-type li.menu-item{padding:5px 10px 0px 10px}
-@media screen and (min-width:768px){.header-big{padding-top:80px;padding-bottom:110px}
+@media screen and (min-width:768px){.header-big{padding-top:80px;padding-bottom:20px}
 .post-top{padding-bottom:20px}
 .header-big.no-bg{padding-bottom:20px}
 .header-big .search-type li label,.header-big .search-type li.menu-item{padding:5px 20px}
