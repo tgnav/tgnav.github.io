@@ -479,12 +479,12 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .header-big .word .wordsub {padding: 0px 8px 0px;height: 35px;border-radius: 18px;background-color: rgba(0, 0, 0, 0.3);display: flex;
         align-items: center;margin-left: 1rem;margin: 0 5px 5px 5px;   
        }
-.header-big .word .wordsub:after {
+/* .header-big .word .wordsub:after {
     content: '.';
     height: 0;
     display: block;
     clear: both;
-} 
+}  */
 .header-big .word .wordsub .wordname {word-break: break-all;color: #fff;font-size: .8rem !important;  white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;}
