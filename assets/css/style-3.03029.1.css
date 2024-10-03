@@ -303,8 +303,8 @@ footer.main-footer{padding:20px 30px;margin-top:0px}
 .form-control::-ms-input-placeholder{color:#888a8f;opacity:1}
 .form-control::placeholder{color:#888a8f;opacity:1}
 .form-control:disabled,.form-control[readonly]{background-color:#f1f3f6;opacity:1;color:#0d131b}
-.btn-danger{color:#fff;background-color:#f1404b;border-color:#f1404b}
-.btn-danger:hover{color:#fff;background-color:#14171b;border-color:#14171b}
+.btn-danger{color:#fff;background-color:#f1404b!important;border-color:#f1404b}
+.btn-danger:hover{color:#fff;background-color:#14171b!important;border-color:#14171b}
 .btn-danger:focus,.btn-danger.focus{color:#fff;background-color:#f1404b;border-color:#f1404b;box-shadow:none}
 .btn-danger.disabled,.btn-danger:disabled{color:#fff;background-color:#f1404b;border-color:#f1404b}
 .btn-danger:not(:disabled):not(.disabled):active,.btn-danger:not(:disabled):not(.disabled).active,.show>.btn-danger.dropdown-toggle{color:#fff;background-color:#f1404b;border-color:#f1404b}
@@ -711,7 +711,7 @@ th,td{border:1px solid rgba(136,136,136,.3);padding:8px 12px}
 .card-post .media,.card-book .media{box-shadow:0 0 20px -5px rgba(20,20,20,.2);-webkit-transition:all 0.3s ease;-moz-transition:all 0.3s ease;-o-transition:all 0.3s ease;transition:all 0.3s ease}
 .card-post:hover .media,.card-book:hover .media{transform:translateY(-6px);-webkit-transform:translateY(-6px);-moz-transform:translateY(-6px);box-shadow:0 26px 40px -24px rgba(27,28,31,.3);-webkit-box-shadow:0 26px 40px -24px rgba(27,28,31,.3);-moz-box-shadow:0 26px 40px -24px rgba(27,28,31,.3)}
 .card-post .list-content{padding-bottom:.5rem}
-.btn-arrow{position:relative}
+.btn-arrow{position:relative;border: solid #32a1ce;}
 .btn-arrow span{padding-right:1.25rem;display:inline-block}
 .btn-arrow i{position:absolute;font-size:18px;width:.8em;right:1rem;top:50%;opacity:.6;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);-webkit-transition:all 200ms ease-out;-o-transition:all 200ms ease-out;transition:all 200ms ease-out;will-change:right,opacity}
 .btn-arrow:hover i,.btn-arrow:focus i{opacity:1;right:.6rem}
