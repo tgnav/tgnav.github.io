@@ -6,17 +6,19 @@ TGNAV - Telegram频道群组导航。收录Telegram上的优质频道和群组�
 
 [点击此处](https://t.me/share?url=https%3A%2F%2Ftgnav.github.io%2F&text=%E6%88%91%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%AATelegram%E5%AF%BC%E8%88%AA%EF%BC%8C%E9%87%8C%E9%9D%A2%E6%94%B6%E5%BD%95%E4%BA%86%E8%B6%85%E5%A4%9A%E4%BC%98%E8%B4%A8%E9%A2%91%E9%81%93%E3%80%81%E7%BE%A4%E7%BB%84%E5%92%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%8C%E5%BF%AB%E6%9D%A5%E7%9C%8B%E7%9C%8B%E5%90%A7%EF%BC%81) 将网站分享给你的TG好友/群组/频道
 
-### 网站地址：[传送门](https://tgnav.github.io/)
+### 网站地址
 
-更多信息请查看： [关于网站](https://tgnav.github.io/about)
+[频道导航](https://tgnav.github.io/) | [群组导航](https://tgnav.github.io/group/)
 
-由TGNAV打造的高质量Telegram知识库： [TGwiki](https://github.com/tgnav/tgwiki)
+更多信息请查看： [关于网站](https://tgnav.github.io/about/)
+
+由TGNAV打造的高质量Telegram知识库： [TGwiki](https://github.com/tgnav/tgwiki/) | [传送门](https://tgnav.github.io/tgwiki/)
 
 ### 赞助我们
 
 TGNAV的维护需要一定的人力物力，在此过程中离不开大家的支持。
 
-[点击此处](https://tgnav.github.io/donate) 赞助我们。您的赞助是我们前进的动力！
+[点击此处](https://tgnav.github.io/donate/) 赞助我们。您的赞助是我们前进的动力！
 
 ### 源码使用
 
