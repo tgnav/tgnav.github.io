@@ -8,7 +8,7 @@ TGNAV - Telegram频道群组导航。收录Telegram上的优质频道和群组�
 
 ### 网站地址
 
-[频道导航](https://tgnav.github.io/) | [群组导航](https://tgnav.github.io/group/)
+[频道导航](https://tgnav.github.io/) | [群组导航](https://tgnav.github.io/group/) | [机器人导航](https://tgnav.github.io/robot/)
 
 更多信息请查看： [关于网站](https://tgnav.github.io/about/)
 

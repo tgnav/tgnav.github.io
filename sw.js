@@ -1,9 +1,9 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/7.1.0/workbox-sw.js');
 
 // 缓存版本号
-let cacheVersion = '-240917';
+let cacheVersion = '-250204';
 // 最大条目数
-const maxEntries = 500;
+const maxEntries = 1000;
 
 if (workbox) {
     console.log(`Workbox加载成功🎉`);
@@ -56,6 +56,25 @@ if (workbox) {
                 new workbox.expiration.ExpirationPlugin({
                     maxEntries: maxEntries,
                     maxAgeSeconds: 30 * 24 * 60 * 60,
+                }),
+            ],
+        })
+    );
+    workbox.routing.registerRoute(
+        new RegExp('^https://use\.fontawesome\.com'),
+        new workbox.strategies.StaleWhileRevalidate({
+            cacheName: 'fontawesome' + cacheVersion,
+            plugins: [
+                // 使用 expiration 插件实现缓存条目数目和时间控制
+                new workbox.expiration.ExpirationPlugin({
+                    // 最大缓存条目数
+                    maxEntries: maxEntries,
+                    // 最长缓存时间 30 天
+                    maxAgeSeconds: 30 * 24 * 60 * 60,
+                }),
+                // 使用 cacheableResponse 插件缓存状态码为 0 的请求
+                new workbox.cacheableResponse.CacheableResponsePlugin({
+                    statuses: [0, 200],
                 }),
             ],
         })

@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex,follow">
     <link rel="shortcut icon" href="/assets/images/favicon.png">
     <script src="../sw.js"></script>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7353728415772033" crossorigin="anonymous"></script>
+    <!--<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7353728415772033" crossorigin="anonymous"></script>-->
     <!--Google Analytics(gtag)-->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-M50CZY3LGQ"></script>
     <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-M50CZY3LGQ');</script>
@@ -53,21 +53,17 @@
 		</div>
 		<p class="loading-text">正在唤起Telegram客户端，请稍候<dot>...</dot></p>
 	</div>
-    <div class="box">
+    <!--<div class="box">
         <div class="box__description">
             <div class="box__description-container">
-              <div class="box__description-title"><text style="color: rgb(15, 76, 231);">次元云|魔法之境</text></div>
+              <div class="box__description-title"><text style="color: rgb(15, 76, 231);">广告招商</text></div>
               <div class="box__description-text">
-                <!--<img src="/assets/images/logo3.png" width="200px" height="50px">-->
-                <text style="color: #c30000;">智能分流，一键直达</text><br/>
-                <br/>✅国外常用流媒体加速
-                <br/>✅全球多个地区的节点
-                <br/>✅有大流量不限时套餐<br/>
+                <img src="/assets/images/logo3.png" width="200px" height="50px">
               </div>
             </div>
-            <a href="/link/?url=reurl.cc/WNeXQO" class="box__button" target="_blank">立即体验</a>
+            <a href="https://t.me/tgnav0bot" class="box__button" target="_blank"></a>
         </div>
-    </div>
+    </div>-->
 </body>
 
 <script type="text/javascript">
@@ -77,20 +73,14 @@
     const params = new URLSearchParams(url.search);
 // 获取特定参数的值
     const username = params.get('username');
-    var jump_username = "tg://resolve?domain=" + username;
     var jump_url = atob("dGduYXYuZ2l0aHViLmlv");
     var domain = window.location.host;
-    document.title = "正在跳转至@" + username +"...";
-    if((domain == jump_url || domain == "localhost:1313") && jump_username != "tg://resolve?domain=")
+    document.title = "正在跳转至@" + username + "...";
+    if((domain == jump_url || domain == "localhost:1313") && username)
     {
         setTimeout(function()
         {
-            window.location.href = jump_username;
-            Swal.fire({title: "成功跳转？",text: "若Telegram客户端未自动唤起，请点击按钮手动跳转。\n本页面将于10秒后自动关闭。",icon: "question",showDenyButton: true,confirmButtonColor: "#3085d6",denyButtonColor: "#d33",confirmButtonText: "手动跳转",denyButtonText: "关闭页面"})
-            .then((result) => {
-                if (result.isConfirmed) {window.location.href = "https://t.me/"+username;}
-                if (result.isDenied) {window.opener=null;window.close();}
-            });
+            window.location.href = "https://t.me/" + username;
         },3000)
         setTimeout(function(){window.opener=null;window.close();}, 15000);
     }
