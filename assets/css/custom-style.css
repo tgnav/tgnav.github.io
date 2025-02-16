@@ -36,9 +36,6 @@ body,html{font-size:14px;}
 /*左导航二级导航标题左侧距离*/
 .sidebar-menu-inner ul li ul li a{margin-left:30px;}
 
-/*头部导航二级导航iconfont图标*/
-.navbar-collapse ul li.menu-item-has-children:after{content:'\e612';}
-
 /*搜索部分背景样式*/
 .header-big.css-color{background-size:unset;background-position:unset;animation:unset;}
 
