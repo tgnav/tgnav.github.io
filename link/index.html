@@ -7,6 +7,7 @@
 <script src="../assets/js/jquery-1.11.1.min.js"></script>
 <script src="../sw.js"></script>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7353728415772033" crossorigin="anonymous"></script>
+<script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 <!--Google Analytics(gtag)-->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-M50CZY3LGQ"></script>
 <script>
@@ -51,35 +52,36 @@ body{background:#555}.loading{-webkit-animation:fadein 2s;-moz-animation:fadein 
 </style>
 </head>
 <body>
-<div class="loading">
-  <div class="spinner-wrapper">
-    <span class="spinner-text">正在加载，请稍后...</span>
-    <span class="spinner"></span>
-  </div>
-</div>
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-7353728415772033"></amp-auto-ads>
+    <div class="loading">
+        <div class="spinner-wrapper">
+            <span class="spinner-text">正在加载，请稍后...</span>
+            <span class="spinner"></span>
+        </div>
+    </div>
 
-<script>
-    //获取请求参数,支持伪静态
-    function GetQueryString(name)
-    {
-         var reg = new RegExp("(^|&)"+ name +"=(.*)$");
-         var r = window.location.search.substr(1).match(reg);
-         if(r!=null) { 
-             return  unescape(r[2]);
-         } else {
-             return window.location.pathname.replace('/link/',''); //注意代码中的/goto/和跳转地址/goto/保持一致，请记得自行修改！
-         }
-    }
-    var url = GetQueryString("url");
-    var jump_url = "https://" + url;
-    document.title = "正在前往：" + url +"...";
-     
-    //延时执行跳转
-    setTimeout(function link_jump(){
-        if(jump_url != "https://"){ location.href = jump_url; }
-        else { alert("参数错误，点击返回首页"); location.href = "https://tgnav.github.io"; }
-    }, 3000);
-    setTimeout(function(){window.opener=null;window.close();}, 100000);
+    <script>
+        //获取请求参数,支持伪静态
+        function GetQueryString(name)
+        {
+            var reg = new RegExp("(^|&)"+ name +"=(.*)$");
+            var r = window.location.search.substr(1).match(reg);
+            if(r!=null) { 
+                return  unescape(r[2]);
+            } else {
+                return window.location.pathname.replace('/link/',''); //注意代码中的/goto/和跳转地址/goto/保持一致，请记得自行修改！
+            }
+        }
+        var url = GetQueryString("url");
+        var jump_url = "https://" + url;
+        document.title = "正在前往：" + url +"...";
+        
+        //延时执行跳转
+        setTimeout(function link_jump(){
+            if(jump_url != "https://"){ location.href = jump_url; }
+            else { alert("参数错误，点击返回首页"); location.href = "https://tgnav.github.io"; }
+        }, 3000);
+        setTimeout(function(){window.opener=null;window.close();}, 100000);
     </script>
 </body>
 </html>

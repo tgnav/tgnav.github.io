@@ -1,7 +1,7 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/7.1.0/workbox-sw.js');
 
 // 缓存版本号
-let cacheVersion = '-250204';
+let cacheVersion = '-250227';
 // 最大条目数
 const maxEntries = 1000;
 
@@ -87,6 +87,21 @@ if (workbox) {
                 new workbox.expiration.ExpirationPlugin({
                     maxEntries: maxEntries,
                     maxAgeSeconds: 30 * 24 * 60 * 60,
+                }),
+                new workbox.cacheableResponse.CacheableResponsePlugin({
+                    statuses: [0, 200],
+                }),
+            ],
+        })
+    );
+    workbox.routing.registerRoute(
+        new RegExp('^(?:http|https)://(?:pagead2\.googlesyndication\.com|cdn\.ampproject\.org|www\.googletagmanager\.com|www\.clarity\.ms|static\.getclicky\.com|in\.getclicky\.com|static\.woopra\.com)'),
+        new workbox.strategies.StaleWhileRevalidate({
+            cacheName: 'analytics' + cacheVersion,
+            plugins: [
+                new workbox.expiration.ExpirationPlugin({
+                    maxEntries: maxEntries,
+                    maxAgeSeconds: 7 * 24 * 60 * 60,
                 }),
                 new workbox.cacheableResponse.CacheableResponsePlugin({
                     statuses: [0, 200],
