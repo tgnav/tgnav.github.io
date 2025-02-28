@@ -95,7 +95,7 @@ if (workbox) {
         })
     );
     workbox.routing.registerRoute(
-        new RegExp('^(?:http|https)://(?:pagead2\.googlesyndication\.com|cdn\.ampproject\.org|www\.googletagmanager\.com|www\.clarity\.ms|static\.getclicky\.com|in\.getclicky\.com|static\.woopra\.com)'),
+        new RegExp('^(?:http|https)://(?:pagead2\.googlesyndication\.com|www\.googletagmanager\.com|www\.clarity\.ms|static\.getclicky\.com|in\.getclicky\.com|static\.woopra\.com)'),
         new workbox.strategies.StaleWhileRevalidate({
             cacheName: 'analytics' + cacheVersion,
             plugins: [
