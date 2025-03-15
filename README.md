@@ -1,6 +1,8 @@
 # TGNAV - Telegram频道群组导航
 
-TGNAV - Telegram频道群组导航。收录Telegram上的优质频道、群组、机器人，打造一个高质量Telegram导航。2025全网最佳Telegram导航网站，从超20,000个优质频道、群组、机器人中精心筛选，更多优质内容尽在TGNAV！
+TGNAV - Telegram频道群组导航。收录Telegram上的优质频道、群组、机器人，打造一个高质量Telegram导航。2025全网最佳Telegram导航网站，从超过20,000个频道、群组、机器人中精心筛选。Telegram导航，有TGNAV就够了！上TGNAV，发现更多优质Telegram频道、群组、机器人！
+
+TGNAV分为三个模块：频道导航、群组导航、机器人导航，分别对应Telegram Channel（频道）、Telegram Group（群组）、Telegram Robot（机器人）。
 
 **Star本仓库支持一下吧！**
 
