@@ -1,6 +1,6 @@
 # TGNAV - Telegram频道群组导航
 
-TGNAV - Telegram频道群组导航。收录Telegram上的优质频道、群组、机器人，打造一个高质量Telegram导航。TGNAV收录整理了Telegram上的许多优质频道、群组、机器人，帮助用户发现更多高质量内容！
+TGNAV - Telegram频道群组导航。收录Telegram上的优质频道、群组、机器人，打造一个高质量Telegram导航。2025全网最佳Telegram导航网站，从超20,000个优质频道、群组、机器人中精心筛选，更多优质内容尽在TGNAV！
 
 **Star本仓库支持一下吧！**
 
