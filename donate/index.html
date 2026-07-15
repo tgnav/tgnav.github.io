@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="zh-CN" data-v="187,241,167,145,214,160,218,211,186,168,159,213,201"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>赞助我们 | TGNAV</title><meta name="description" content="TGNAV 的维护需要一定的人力物力，您可以通过多种方式赞助我们，支持网站的运营工作。"><meta name="keywords" content="赞助我们, 捐赠TGNAV, 支持TGNAV, USDT捐赠"><meta name="author" content="TGNAV"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://www.tgnav.org/donate/"><meta property="og:title" content="赞助我们 | TGNAV"><meta property="og:description" content="TGNAV 的维护需要一定的人力物力，您可以通过多种方式赞助我们，支持网站的运营工作。"><meta property="og:image" content="https://www.tgnav.org/images/logo.png"><!-- Twitter --><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://www.tgnav.org/donate/"><meta property="twitter:title" content="赞助我们 | TGNAV"><meta property="twitter:description" content="TGNAV 的维护需要一定的人力物力，您可以通过多种方式赞助我们，支持网站的运营工作。"><meta property="twitter:image" content="https://www.tgnav.org/images/logo.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/images/logo.png"><link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><script>
+      // Flash prevention: set initial theme + drawer state before first paint
+      let theme = localStorage.getItem('theme');
+      if (!theme) {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+      if (localStorage.getItem('drawer-collapsed') === 'true') {
+        document.documentElement.setAttribute('data-drawer-collapsed', 'true');
+      }
+
+      // Announcement visibility flash prevention
+      const closedDate = localStorage.getItem('announcement-closed-date');
+      const today = new Date().toDateString();
+      if (closedDate === today) {
+        document.documentElement.classList.add('hide-announcement');
+      }
+    </script><!-- Load Algolia UMD Script for site search integration --><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><!-- Google Analytics (GA4) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-M50CZY3LGQ"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-M50CZY3LGQ');
+    </script><!-- Microsoft Clarity --><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "fpva872c50");
+    </script><!-- Clicky Tracking --><script async src="//static.getclicky.com/101396814.js"></script><link rel="stylesheet" href="/_astro/Layout.BHDkHnOx.css"><link rel="stylesheet" href="/_astro/PageLayout.C-6JqUKv.css"><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101396814ns.gif"></p></noscript><!-- Busuanzi (不蒜子) Counting --><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></head> <body> <!-- Floating Background Blobs --> <div class="glass-bg-blobs"> <div class="blob blob-1"></div> <div class="blob blob-2"></div> <div class="blob blob-3"></div> </div> <div class="layout-container no-sidebar"> <!-- Desktop Navigation Drawer (MD3 Category Sidebar) --> <aside class="md-drawer" id="site-drawer"> <div class="md-drawer-nav">  </div> </aside> <!-- Sidebar Dark Overlay for Mobile --> <div class="drawer-overlay" id="drawer-overlay"></div> <!-- Main Column --> <div class="md-main"> <!-- Top App Bar --> <header class="md-topbar"> <div class="topbar-left-brand"> <button class="md-icon-button drawer-toggle-btn" id="drawer-toggle" aria-label="Toggle Sidebar"> <i class="fa-solid fa-bars"></i> </button> <a href="/" class="topbar-logo-link"> <img src="/images/logo.png" alt="TGNAV Logo" class="topbar-logo"> <span class="topbar-title">TGNAV</span> </a> </div> <!-- Section Switcher Navigation --> <nav class="topbar-nav"> <a href="/" class="topbar-nav-item "> <i class="fa-solid fa-house"></i>首页
+</a> <a href="/channel/" class="topbar-nav-item "> <i class="fa-solid fa-bullhorn"></i>频道
+</a> <a href="/group/" class="topbar-nav-item "> <i class="fa-solid fa-users"></i>群组
+</a> <a href="/robot/" class="topbar-nav-item "> <i class="fa-solid fa-robot"></i>机器人
+</a> <a href="/about/" class="topbar-nav-item active"> <i class="fa-solid fa-info-circle"></i>关于
+</a> </nav> <div class="topbar-right"> <!-- Search Trigger --> <div class="search-trigger-box" id="search-trigger"> <i class="fa-solid fa-magnifying-glass search-icon"></i> <span class="search-placeholder">搜索...</span> <span class="search-keys"> <kbd>Ctrl</kbd> <kbd>K</kbd> </span> </div> <!-- Random Teleport (试试手气) --> <div class="random-teleport-wrapper"> <a href="/random/" class="md-icon-button" id="random-teleport" title="试试手气" aria-label="随机传送"> <i class="fa-solid fa-random"></i> </a> <div id="random-tooltip" class="random-tooltip"> <span>点击此处开启随机探索</span> <button id="close-random-tooltip" aria-label="关闭提示"> <i class="fa-solid fa-xmark"></i> </button> </div> </div> <!-- Theme Toggle --> <button class="md-icon-button" id="theme-toggle" aria-label="Toggle Theme"> <i class="fa-solid fa-moon"></i> </button> </div> </header> <!-- Main Workspace --> <main class="md-content"> <!-- Announcement Banner --> <div class="announcement-banner" id="announcement-banner"> <div class="announcement-content"> <span class="announcement-badge"> <i class="fa-solid fa-bullhorn"></i> <span>公告</span> </span> <span class="announcement-text">TGNAV已完成改版升级，并启用新域名： <span class="announcement-link">tgnav.org</span> ！欢迎关注我们的 <a href="https://twitter.com/tgnavteam" target="_blank" rel="noopener noreferrer" class="announcement-link">Twitter账号 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 10px; margin-left: 2px;"></i></a> 获取最新动态。</span> </div> <button class="announcement-close" id="announcement-close" aria-label="关闭公告"> <i class="fa-solid fa-xmark"></i> </button> </div>  <div class="page-container"> <header class="page-header"> <h2 class="headline-medium"> <i class="fa-solid fa-yen-sign" style="margin-right: 8px;"></i>赞助我们 </h2> <p class="body-medium page-subtitle"> TGNAV 的维护需要一定的人力物力，您可以通过多种方式赞助我们，支持网站的运营工作。 </p> </header> <article class="md-document page-article"> <p>TGNAV 的维护需要一定的人力物力，在此过程中离不开大家的支持。</p>
+<p>您可以通过多种方式赞助我们，您的赞助是我们前进的动力！</p>
+<h3 id="usdt-trc20">USDT-TRC20</h3>
+<p>转账地址：<code>TH5MsLhCNXQQ6mBHBh8VmgZe5jQNtXdwMB</code></p>
+<p>转账二维码：</p>
+<img src="/images/usdt-trc20.jpg" width="250px" style="border-radius: 12px; margin-top: 10px; box-shadow: var(--glass-shadow);">
+<p><strong>注意：该地址仅支持接收 USDT-TRC20 / TRX。</strong></p>
+<h3 id="微信支付宝">微信/支付宝</h3>
+<p><a href="https://afdian.com/a/awaowo">点击此处</a> 或扫描下方二维码前往爱发电赞助我们。</p>
+<img src="/images/afdian.png" width="150px" style="border-radius: 12px; margin-top: 10px; box-shadow: var(--glass-shadow);">
+<h3 id="其他方式">其他方式</h3>
+<ul>
+<li>在 <a href="https://github.com/tgnav/tgnav.github.io">GitHub</a> 上 Star 本项目</li>
+<li><a href="https://t.me/share?url=https%3A%2F%2Fwww.tgnav.org%2F&#x26;text=%E6%88%91%E5%8F%91%E7%8E%B0%E4%BA%86%E4%B8%AATelegram%E5%AF%BC%E8%88%AA%EF%BC%8C%E9%87%8C%E9%9D%A2%E6%94%B6%E5%BD%95%E4%BA%86%E8%B6%85%E5%A4%9A%E4%BC%98%E8%B4%A8%E9%A2%91%E9%81%93%E3%80%81%E7%BE%A4%E7%BB%84%E5%92%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%8C%E5%BF%AB%E6%9D%A5%E7%9C%8B%E7%9C%8B%E5%90%A7%EF%BC%81">点击此处</a> 将 TGNAV 分享给你的 TG 好友/群组/频道</li>
+</ul>
+<p><a href="https://github.com/tgnav/tgnav.github.io" target="_blank" style="display: block; margin-top: 20px;"><img style="width:100%; max-width:400px; border-radius: 12px; box-shadow: var(--glass-shadow);" src="https://opengraph.githubassets.com/1/tgnav/tgnav.github.io"></a></p> <!-- Article Share Bar --> <div class="article-share-bar" style="margin-top: 32px; padding-top: 24px; border-top: 1px dashed var(--md-sys-color-outline-variant); display: flex; align-items: center; justify-content: flex-end; gap: 8px;"> <span style="font-size: 13px; opacity: 0.8; margin-right: 4px; display: inline-flex; align-items: center; gap: 4px;"><i class="fa-solid fa-share-nodes"></i> 分享本文：</span> <button id="article-share-btn" class="secondary-action-btn" style="padding: 6px 16px; font-size: 12.5px; border-radius: 100px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; border: 1px solid var(--glass-border); background: var(--glass-bg-hover); color: var(--md-sys-color-on-surface);" data-text="我在 TGNAV 看到一篇文章，非常实用，分享给你：《赞助我们》">
+分享 <i class="fa-solid fa-share"></i> </button> <button id="article-copy-btn" class="secondary-action-btn" style="padding: 6px 16px; font-size: 12.5px; border-radius: 100px; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; border: 1px solid var(--glass-border); background: var(--glass-bg-hover); color: var(--md-sys-color-on-surface);">
+复制链接 <i class="fa-solid fa-link"></i> </button> </div> </article> </div>  </main> <!-- Footer --> <footer class="md-footer"> <div class="footer-container"> <div class="footer-brand-section"> <div class="footer-logo-container"> <img src="/images/logo.png" alt="TGNAV Logo" class="footer-logo"> <span class="footer-title">TGNAV</span> </div> <p class="footer-slogan">TGNAV 精心收录整理了 Telegram 上的优质频道、群组与机器人，为您提供高品质的发现与导航服务。</p> </div> <div class="footer-links-section"> <div class="footer-links-column"> <span class="footer-column-title">导航分区</span> <a href="/channel/" class="footer-link"><i class="fa-solid fa-bullhorn"></i> 频道</a> <a href="/group/" class="footer-link"><i class="fa-solid fa-users"></i> 群组</a> <a href="/robot/" class="footer-link"><i class="fa-solid fa-robot"></i> 机器人</a> </div> <div class="footer-links-column"> <span class="footer-column-title">探索与提交</span> <a href="/random/" class="footer-link"><i class="fa-solid fa-random"></i> 随机探索</a> <a href="/about/" class="footer-link"><i class="fa-solid fa-info-circle"></i> 关于我们</a> <a href="/enroll/" class="footer-link"><i class="fa-solid fa-plus-circle"></i> 提交收录</a> </div> <div class="footer-links-column"> <span class="footer-column-title">更多信息</span> <a href="/donate/" class="footer-link"><i class="fa-solid fa-yen-sign"></i> 赞助我们</a> <a href="/privacy-policy/" class="footer-link"><i class="fa-solid fa-shield-halved"></i> 隐私政策</a> <a href="https://github.com/tgnav/tgnav.github.io" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fa-brands fa-github"></i> 开源地址</a> </div> </div> </div> <div class="footer-divider"></div> <div class="footer-bottom-bar"> <p class="footer-copyright">&copy; 2026 TGNAV. All rights reserved.</p> <div class="footer-stats" style="display: flex; gap: 12px; font-size: 11px; opacity: 0.8; align-items: center;"> <span id="busuanzi_container_site_pv">
+本站总访问量：<span id="busuanzi_value_site_pv" style="font-weight: 600;">--</span> </span> </div> <p class="footer-disclaimer">免责声明：本站内容均收集自 Telegram 公开渠道，与 Telegram 官方无关。</p> </div> </footer> </div> </div> <!-- Mobile Bottom Navigation Bar --> <nav class="md-bottom-nav"> <a href="/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-house"></i> </div> <span>首页</span> </a> <a href="/channel/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-bullhorn"></i> </div> <span>频道</span> </a> <a href="/group/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-users"></i> </div> <span>群组</span> </a> <a href="/robot/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-robot"></i> </div> <span>机器人</span> </a> <a href="/about/" class="md-bottom-nav-item active"> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-info-circle"></i> </div> <span>关于</span> </a> </nav> <!-- Global Floating Tooltip Container --> <div id="site-tooltip" class="site-tooltip"></div> <!-- Search Modal Overlay --> <div class="search-modal-overlay" id="search-modal"> <div class="search-modal-card"> <div class="search-modal-body"> <!-- Search Engine Switcher --> <div class="search-engines"> <label class="search-engine-item"> <input type="radio" name="search-engine" value="site" checked> <span>站内</span> </label> <label class="search-engine-item"> <input type="radio" name="search-engine" value="google"> <span>Google</span> </label> <label class="search-engine-item"> <input type="radio" name="search-engine" value="baidu"> <span>百度</span> </label> <label class="search-engine-item"> <input type="radio" name="search-engine" value="bing"> <span>Bing</span> </label> </div> <!-- Search Input Bar --> <form class="search-input-form" id="search-form" action="" method="GET"> <input type="text" id="search-input" placeholder="输入关键词搜索站内频道、群组、机器人..." autocomplete="off"> <button type="submit" id="search-submit"> <i class="fa-solid fa-magnifying-glass"></i> </button> </form> <!-- Suggestions list --> <div class="search-suggestions-card" id="search-suggestions"> <ul id="suggestions-list"> <li class="search-placeholder-item" style="padding: 12px 16px; opacity: 0.6; font-size: 14px; color: var(--md-sys-color-on-surface-variant);">
+输入关键词搜索站内频道、群组、机器人...
+</li> </ul> </div> <!-- Hot Tags --> <div class="search-hot"> <span class="search-hot-title"><i class="fa-solid fa-fire"></i> 热门搜索：</span> <div class="search-hot-tags"> <span class="hot-tag" data-tag="科学上网">科学上网</span> <span class="hot-tag" data-tag="影视">影视</span> <span class="hot-tag" data-tag="二次元">二次元</span> <span class="hot-tag" data-tag="AI">AI</span> </div> </div> </div> <button class="search-modal-close" id="search-close" aria-label="Close Search"> <i class="fa-solid fa-xmark"></i> </button> </div> </div> <!-- Floating Scroll-to-Top/Bottom and Percentage Widget (Circular with SVG progress ring) --> <div id="scroll-widget" class="scroll-widget circular"> <svg class="scroll-progress-svg" width="48" height="48"> <circle class="scroll-progress-bg" cx="24" cy="24" r="21" stroke-width="3" fill="none"></circle> <circle id="scroll-progress-bar" class="scroll-progress-bar" cx="24" cy="24" r="21" stroke-width="3" fill="none" stroke-dasharray="132" stroke-dashoffset="132"></circle> </svg> <div class="scroll-content"> <i id="scroll-widget-icon" class="fa-solid fa-arrow-down"></i> <span id="scroll-widget-pct-num" class="scroll-pct-text">0%</span> </div> </div> <!-- Guard: initialise global function map as early as possible --> <script>
+      window.__nm = Object.create(null);
+    </script> <!-- Module A: Theme + Drawer init (Security Module Part 1: sets _nm.h) --> <script type="module" src="/_astro/ThemeManager.CdUsF-Tf.js"></script> <!-- Module B: Search overlay + Announcement (Security Module Part 2: sets _nm.c) --> <script type="module" src="/_astro/SearchWidget.CR1K-h29.js"></script>  <!-- Client-side Logic Script --> <script type="module" src="/_astro/Layout.Dz0cb9lr.js"></script> </body> </html>  <script>
+  function scaleStatsWidget() {
+    const container = document.querySelector('.stats-container');
+    const wrapper = document.querySelector('.stats-wrapper');
+    const iframe = container ? container.querySelector('iframe') : null;
+    if (!container || !wrapper || !iframe) return;
+    
+    const containerWidth = container.getBoundingClientRect().width;
+    const baseWidth = 800;
+    const baseHeight = 400;
+    
+    const scale = containerWidth / baseWidth;
+    
+    iframe.style.setProperty('--iframe-scale', scale);
+    wrapper.style.height = `${baseHeight * scale}px`;
+  }
+
+  function handleExternalAndGoLinks() {
+    const article = document.querySelector('.page-article');
+    if (!article) return;
+    const links = article.querySelectorAll('a');
+    const hostname = window.location.hostname;
+    links.forEach(link => {
+      const href = link.getAttribute('href');
+      if (!href) return;
+      
+      const isGoLink = href.startsWith('/go/') || href.includes(hostname + '/go/') || href.includes('//go/');
+      const isExternal = href.startsWith('http://') || href.startsWith('https://') || href.startsWith('//');
+      const isSameDomain = href.includes(hostname);
+
+      if (isGoLink || (isExternal && !isSameDomain)) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      }
+    });
+  }
+
+  window.addEventListener('resize', scaleStatsWidget);
+  document.addEventListener('DOMContentLoaded', () => {
+    scaleStatsWidget();
+    handleExternalAndGoLinks();
+  });
+  
+  // Run scaling and link handling on dynamic events
+  scaleStatsWidget();
+  handleExternalAndGoLinks();
+  setTimeout(scaleStatsWidget, 100);
+  setTimeout(scaleStatsWidget, 500);
+</script>

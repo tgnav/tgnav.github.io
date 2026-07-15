@@ -1,0 +1,209 @@
+<!DOCTYPE html><html lang="zh-CN" data-v="187,241,167,145,214,160,218,211,186,168,159,213,201"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>消息收发 - Telegram机器人 | TGNAV</title><meta name="description" content="收录整理了优质的 Telegram 消息收发 分类 机器人。包含 DropMail.me、EmojiTitleBot | Text from Emojis、File Converter、flowerss、GitHub 等精选 机器人，为您提供直达加入链接与详细介绍。"><meta name="keywords" content="消息收发, Telegram机器人, 电报机器人, 消息收发导航, TGNAV, Telegram导航"><meta name="author" content="TGNAV"><!-- Open Graph / Facebook --><meta property="og:type" content="website"><meta property="og:url" content="https://www.tgnav.org/robot/%E6%B6%88%E6%81%AF%E6%94%B6%E5%8F%91/"><meta property="og:title" content="消息收发 - Telegram机器人 | TGNAV"><meta property="og:description" content="收录整理了优质的 Telegram 消息收发 分类 机器人。包含 DropMail.me、EmojiTitleBot | Text from Emojis、File Converter、flowerss、GitHub 等精选 机器人，为您提供直达加入链接与详细介绍。"><meta property="og:image" content="https://www.tgnav.org/images/logo.png"><!-- Twitter --><meta property="twitter:card" content="summary"><meta property="twitter:url" content="https://www.tgnav.org/robot/%E6%B6%88%E6%81%AF%E6%94%B6%E5%8F%91/"><meta property="twitter:title" content="消息收发 - Telegram机器人 | TGNAV"><meta property="twitter:description" content="收录整理了优质的 Telegram 消息收发 分类 机器人。包含 DropMail.me、EmojiTitleBot | Text from Emojis、File Converter、flowerss、GitHub 等精选 机器人，为您提供直达加入链接与详细介绍。"><meta property="twitter:image" content="https://www.tgnav.org/images/logo.png"><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/images/logo.png"><link rel="manifest" href="/manifest.webmanifest"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"><script>
+      // Flash prevention: set initial theme + drawer state before first paint
+      let theme = localStorage.getItem('theme');
+      if (!theme) {
+        theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+      if (localStorage.getItem('drawer-collapsed') === 'true') {
+        document.documentElement.setAttribute('data-drawer-collapsed', 'true');
+      }
+
+      // Announcement visibility flash prevention
+      const closedDate = localStorage.getItem('announcement-closed-date');
+      const today = new Date().toDateString();
+      if (closedDate === today) {
+        document.documentElement.classList.add('hide-announcement');
+      }
+    </script><!-- Load Algolia UMD Script for site search integration --><script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script><!-- Google Analytics (GA4) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-M50CZY3LGQ"></script><script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-M50CZY3LGQ');
+    </script><!-- Microsoft Clarity --><script type="text/javascript">
+      (function(c,l,a,r,i,t,y){
+          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+      })(window, document, "clarity", "script", "fpva872c50");
+    </script><!-- Clicky Tracking --><script async src="//static.getclicky.com/101396814.js"></script><noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101396814ns.gif"></p></noscript><!-- Busuanzi (不蒜子) Counting --><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><link rel="stylesheet" href="/_astro/Layout.BHDkHnOx.css"></head> <body> <!-- Floating Background Blobs --> <div class="glass-bg-blobs"> <div class="blob blob-1"></div> <div class="blob blob-2"></div> <div class="blob blob-3"></div> </div> <div class="layout-container "> <!-- Desktop Navigation Drawer (MD3 Category Sidebar) --> <aside class="md-drawer" id="site-drawer"> <div class="md-drawer-nav"> <a href="/robot/#tg官方" class="md-drawer-item smooth-scroll" data-tooltip="TG官方"> <i class="fas fa-paper-plane"></i> <span>TG官方</span> </a><a href="/robot/#常用推荐" class="md-drawer-item smooth-scroll" data-tooltip="常用推荐"> <i class="fa fa-star"></i> <span>常用推荐</span> </a><a href="/robot/消息收发/" class="md-drawer-item smooth-scroll" data-tooltip="消息收发"> <i class="fas fa-envelope"></i> <span>消息收发</span> </a><a href="/robot/#资源搜索" class="md-drawer-item smooth-scroll" data-tooltip="资源搜索"> <i class="fa fa-search"></i> <span>资源搜索</span> </a><a href="/robot/#文件下载" class="md-drawer-item smooth-scroll" data-tooltip="文件下载"> <i class="fas fa-download"></i> <span>文件下载</span> </a><a href="/robot/#贴纸下载" class="md-drawer-item smooth-scroll" data-tooltip="贴纸下载"> <i class="fas fa-face-smile"></i> <span>贴纸下载</span> </a><a href="/robot/群组管理/" class="md-drawer-item smooth-scroll" data-tooltip="群组管理"> <i class="fas fa-screwdriver-wrench"></i> <span>群组管理</span> </a><a href="/robot/#频道分析" class="md-drawer-item smooth-scroll" data-tooltip="频道分析"> <i class="fas fa-chart-line"></i> <span>频道分析</span> </a><a href="/robot/#抽奖机器人" class="md-drawer-item smooth-scroll" data-tooltip="抽奖机器人"> <i class="fas fa-gift"></i> <span>抽奖机器人</span> </a><a href="/robot/#搜群机器人" class="md-drawer-item smooth-scroll" data-tooltip="搜群机器人"> <i class="fa fa-search"></i> <span>搜群机器人</span> </a> </div> </aside> <!-- Sidebar Dark Overlay for Mobile --> <div class="drawer-overlay" id="drawer-overlay"></div> <!-- Main Column --> <div class="md-main"> <!-- Top App Bar --> <header class="md-topbar"> <div class="topbar-left-brand"> <button class="md-icon-button drawer-toggle-btn" id="drawer-toggle" aria-label="Toggle Sidebar"> <i class="fa-solid fa-bars"></i> </button> <a href="/" class="topbar-logo-link"> <img src="/images/logo.png" alt="TGNAV Logo" class="topbar-logo"> <span class="topbar-title">TGNAV</span> </a> </div> <!-- Section Switcher Navigation --> <nav class="topbar-nav"> <a href="/" class="topbar-nav-item "> <i class="fa-solid fa-house"></i>首页
+</a> <a href="/channel/" class="topbar-nav-item "> <i class="fa-solid fa-bullhorn"></i>频道
+</a> <a href="/group/" class="topbar-nav-item "> <i class="fa-solid fa-users"></i>群组
+</a> <a href="/robot/" class="topbar-nav-item active"> <i class="fa-solid fa-robot"></i>机器人
+</a> <a href="/about/" class="topbar-nav-item "> <i class="fa-solid fa-info-circle"></i>关于
+</a> </nav> <div class="topbar-right"> <!-- Search Trigger --> <div class="search-trigger-box" id="search-trigger"> <i class="fa-solid fa-magnifying-glass search-icon"></i> <span class="search-placeholder">搜索...</span> <span class="search-keys"> <kbd>Ctrl</kbd> <kbd>K</kbd> </span> </div> <!-- Random Teleport (试试手气) --> <div class="random-teleport-wrapper"> <a href="/random/?type=robot" class="md-icon-button" id="random-teleport" title="试试手气" aria-label="随机传送"> <i class="fa-solid fa-random"></i> </a> <div id="random-tooltip" class="random-tooltip"> <span>点击此处开启随机探索</span> <button id="close-random-tooltip" aria-label="关闭提示"> <i class="fa-solid fa-xmark"></i> </button> </div> </div> <!-- Theme Toggle --> <button class="md-icon-button" id="theme-toggle" aria-label="Toggle Theme"> <i class="fa-solid fa-moon"></i> </button> </div> </header> <!-- Main Workspace --> <main class="md-content"> <!-- Announcement Banner --> <div class="announcement-banner" id="announcement-banner"> <div class="announcement-content"> <span class="announcement-badge"> <i class="fa-solid fa-bullhorn"></i> <span>公告</span> </span> <span class="announcement-text">TGNAV已完成改版升级，并启用新域名： <span class="announcement-link">tgnav.org</span> ！欢迎关注我们的 <a href="https://twitter.com/tgnavteam" target="_blank" rel="noopener noreferrer" class="announcement-link">Twitter账号 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 10px; margin-left: 2px;"></i></a> 获取最新动态。</span> </div> <button class="announcement-close" id="announcement-close" aria-label="关闭公告"> <i class="fa-solid fa-xmark"></i> </button> </div>  <div class="category-page"> <div style="margin-bottom: 24px;"> <a href="/robot/" class="md-button-text" style="margin-bottom: 12px; font-weight: 600;"> <i class="fa-solid fa-arrow-left"></i> 返回机器人导航
+</a> <h2 class="headline-medium" style="margin: 0; color: var(--md-sys-color-primary);">分类：消息收发</h2> <p class="body-medium" style="margin: 4px 0 0 0; color: var(--md-sys-color-on-surface-variant);">
+共收录 23 个公开机器人。
+</p> </div> <div class="cards-grid"> <div class="md-card"> <a href="/detail/dropmailbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/dropmailbot.jpg" alt="DropMail.me Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="DropMail.me">DropMail.me</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> https://dropmail.me/ in Telegram </p> </a> </div><div class="md-card"> <a href="/detail/emojititlebot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/emojititlebot.jpg" alt="EmojiTitleBot | Text from Emojis Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="EmojiTitleBot | Text from Emojis">EmojiTitleBot | Text from Emojis</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> （暂无描述） </p> </a> </div><div class="md-card"> <a href="/detail/newfileconverterbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/newfileconverterbot.jpg" alt="File Converter Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="File Converter">File Converter</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> This bot allows to convert files fr... </p> </a> </div><div class="md-card"> <a href="/detail/rssflowbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/rssflowbot.jpg" alt="flowerss Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="flowerss">flowerss</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> flowerss是一个支持应用内阅读的RSS机器人，源码地址：
+htt... </p> </a> </div><div class="md-card"> <a href="/detail/githubbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/githubbot.jpg" alt="GitHub Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="GitHub">GitHub</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> Get notifications about events in y... </p> </a> </div><div class="md-card"> <a href="/detail/gmailbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/gmailbot.jpg" alt="Gmail Bot Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Gmail Bot">Gmail Bot</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> This bot is an email client that wo... </p> </a> </div><div class="md-card"> <a href="/detail/translatebot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/translatebot.jpg" alt="Google Translate Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Google Translate">Google Translate</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> I&#39;m Language Translator Bot. </p> </a> </div><div class="md-card"> <a href="/detail/corsabot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/corsabot.jpg" alt="InstantViewBot Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="InstantViewBot">InstantViewBot</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> （暂无描述） </p> </a> </div><div class="md-card"> <a href="/detail/mine_sweeper_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/mine_sweeper_bot.jpg" alt="Minesweeper Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Minesweeper">Minesweeper</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> https://github.com/hczhcz/telegram-... </p> </a> </div><div class="md-card"> <a href="/detail/pixiv_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/pixiv_bot.jpg" alt="Pixiv Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Pixiv">Pixiv</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> [unoffoical]
+wiki: https://pixiv-bo... </p> </a> </div><div class="md-card"> <a href="/detail/postbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/postbot.jpg" alt="Post Bot Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Post Bot">Post Bot</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> ⚡️ Ultimate post builder. Templates... </p> </a> </div><div class="md-card"> <a href="/detail/quotlybot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/quotlybot.jpg" alt="QuotLy Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="QuotLy">QuotLy</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> I&#39;ll help create a quote from the m... </p> </a> </div><div class="md-card"> <a href="/detail/renamersfilesbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/renamersfilesbot.jpg" alt="ReNamers | Remove background | ZIP, RAR, Instagram, TikTok Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="ReNamers | Remove background | ZIP, RAR, Instagram, TikTok">ReNamers | Remove background | ZIP, RAR, Instagram, TikTok</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> Редактирует файлы Архивирует файлы ... </p> </a> </div><div class="md-card"> <a href="/detail/rustrssbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/rustrssbot.jpg" alt="RSSBot Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="RSSBot">RSSBot</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> 中文 Telegram RSS 机器人
+项目地址: https://g... </p> </a> </div><div class="md-card"> <a href="/detail/rsswbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/rsswbot.jpg" alt="RSS屋 Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="RSS屋">RSS屋</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> 更多精彩
+https://t.me/aheatwave </p> </a> </div><div class="md-card"> <a href="/detail/tempmail_org_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/tempmail_org_bot.jpg" alt="Temp Mail ✉️ Official Bot Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Temp Mail ✉️ Official Bot">Temp Mail ✉️ Official Bot</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> The Official TempMail Bot. From cre... </p> </a> </div><div class="md-card"> <a href="/detail/twitter_loli_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/twitter_loli_bot.jpg" alt="twitter_loli_bot Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="twitter_loli_bot">twitter_loli_bot</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> （暂无描述） </p> </a> </div><div class="md-card"> <a href="/detail/uploadbot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/uploadbot.jpg" alt="URL Uploader Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="URL Uploader">URL Uploader</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> Quick way to upload files to telegr... </p> </a> </div><div class="md-card"> <a href="/detail/web2album_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/web2album_bot.jpg" alt="Web to Album Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Web to Album">Web to Album</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> This bot will convert web url to al... </p> </a> </div><div class="md-card"> <a href="/detail/ytranslatebot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/ytranslatebot.jpg" alt="Yandex Translate Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="Yandex Translate">Yandex Translate</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> I can translate your messeges to an... </p> </a> </div><div class="md-card"> <a href="/detail/msg_get_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/msg_get_bot.jpg" alt="电报消息提取器(支持私人/公开频道/群组) Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="电报消息提取器(支持私人/公开频道/群组)">电报消息提取器(支持私人/公开频道/群组)</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> 官方频道👉 @msgget123
+按钮机器人: @autoButto... </p> </a> </div><div class="md-card"> <a href="/detail/atri_bili_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/atri_bili_bot.jpg" alt="羽衣 Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="羽衣">羽衣</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> （暂无描述） </p> </a> </div><div class="md-card"> <a href="/detail/fanyi_bot/" class="md-card-main-link"> <div class="md-card-header" style="margin-bottom: 6px;"> <img class="md-card-avatar" src="/images/loading.gif" data-src="https://avatar.tgnav.org/small/fanyi_bot.jpg" alt="翻译 Avatar" loading="lazy" onload="
+          if (this.dataset.src &amp;&amp; !this.src.includes(this.dataset.src)) {
+            const temp = new Image();
+            temp.onload = () => { this.src = this.dataset.src; };
+            temp.onerror = () => { this.src = '/images/default.jpg'; };
+            temp.src = this.dataset.src;
+          }
+        " onerror="this.onerror=null; this.src='/images/default.jpg';"> <div class="md-card-title-container"> <h4 class="title-small md-card-title" title="翻译">翻译</h4> </div> </div> <p class="body-small md-card-body" style="margin: 0;"> 为全世界语言提供中英翻译。支持私聊、群组、行内请求。
+讨论 @fany... </p> </a> </div> </div> </div>  </main> <!-- Footer --> <footer class="md-footer"> <div class="footer-container"> <div class="footer-brand-section"> <div class="footer-logo-container"> <img src="/images/logo.png" alt="TGNAV Logo" class="footer-logo"> <span class="footer-title">TGNAV</span> </div> <p class="footer-slogan">TGNAV 精心收录整理了 Telegram 上的优质频道、群组与机器人，为您提供高品质的发现与导航服务。</p> </div> <div class="footer-links-section"> <div class="footer-links-column"> <span class="footer-column-title">导航分区</span> <a href="/channel/" class="footer-link"><i class="fa-solid fa-bullhorn"></i> 频道</a> <a href="/group/" class="footer-link"><i class="fa-solid fa-users"></i> 群组</a> <a href="/robot/" class="footer-link"><i class="fa-solid fa-robot"></i> 机器人</a> </div> <div class="footer-links-column"> <span class="footer-column-title">探索与提交</span> <a href="/random/" class="footer-link"><i class="fa-solid fa-random"></i> 随机探索</a> <a href="/about/" class="footer-link"><i class="fa-solid fa-info-circle"></i> 关于我们</a> <a href="/enroll/" class="footer-link"><i class="fa-solid fa-plus-circle"></i> 提交收录</a> </div> <div class="footer-links-column"> <span class="footer-column-title">更多信息</span> <a href="/donate/" class="footer-link"><i class="fa-solid fa-yen-sign"></i> 赞助我们</a> <a href="/privacy-policy/" class="footer-link"><i class="fa-solid fa-shield-halved"></i> 隐私政策</a> <a href="https://github.com/tgnav/tgnav.github.io" target="_blank" rel="noopener noreferrer" class="footer-link"><i class="fa-brands fa-github"></i> 开源地址</a> </div> </div> </div> <div class="footer-divider"></div> <div class="footer-bottom-bar"> <p class="footer-copyright">&copy; 2026 TGNAV. All rights reserved.</p> <div class="footer-stats" style="display: flex; gap: 12px; font-size: 11px; opacity: 0.8; align-items: center;"> <span id="busuanzi_container_site_pv">
+本站总访问量：<span id="busuanzi_value_site_pv" style="font-weight: 600;">--</span> </span> </div> <p class="footer-disclaimer">免责声明：本站内容均收集自 Telegram 公开渠道，与 Telegram 官方无关。</p> </div> </footer> </div> </div> <!-- Mobile Bottom Navigation Bar --> <nav class="md-bottom-nav"> <a href="/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-house"></i> </div> <span>首页</span> </a> <a href="/channel/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-bullhorn"></i> </div> <span>频道</span> </a> <a href="/group/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-users"></i> </div> <span>群组</span> </a> <a href="/robot/" class="md-bottom-nav-item active"> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-robot"></i> </div> <span>机器人</span> </a> <a href="/about/" class="md-bottom-nav-item "> <div class="md-bottom-nav-icon-container"> <i class="fa-solid fa-info-circle"></i> </div> <span>关于</span> </a> </nav> <!-- Global Floating Tooltip Container --> <div id="site-tooltip" class="site-tooltip"></div> <!-- Search Modal Overlay --> <div class="search-modal-overlay" id="search-modal"> <div class="search-modal-card"> <div class="search-modal-body"> <!-- Search Engine Switcher --> <div class="search-engines"> <label class="search-engine-item"> <input type="radio" name="search-engine" value="site" checked> <span>站内</span> </label> <label class="search-engine-item"> <input type="radio" name="search-engine" value="google"> <span>Google</span> </label> <label class="search-engine-item"> <input type="radio" name="search-engine" value="baidu"> <span>百度</span> </label> <label class="search-engine-item"> <input type="radio" name="search-engine" value="bing"> <span>Bing</span> </label> </div> <!-- Search Input Bar --> <form class="search-input-form" id="search-form" action="" method="GET"> <input type="text" id="search-input" placeholder="输入关键词搜索站内频道、群组、机器人..." autocomplete="off"> <button type="submit" id="search-submit"> <i class="fa-solid fa-magnifying-glass"></i> </button> </form> <!-- Suggestions list --> <div class="search-suggestions-card" id="search-suggestions"> <ul id="suggestions-list"> <li class="search-placeholder-item" style="padding: 12px 16px; opacity: 0.6; font-size: 14px; color: var(--md-sys-color-on-surface-variant);">
+输入关键词搜索站内频道、群组、机器人...
+</li> </ul> </div> <!-- Hot Tags --> <div class="search-hot"> <span class="search-hot-title"><i class="fa-solid fa-fire"></i> 热门搜索：</span> <div class="search-hot-tags"> <span class="hot-tag" data-tag="科学上网">科学上网</span> <span class="hot-tag" data-tag="影视">影视</span> <span class="hot-tag" data-tag="二次元">二次元</span> <span class="hot-tag" data-tag="AI">AI</span> </div> </div> </div> <button class="search-modal-close" id="search-close" aria-label="Close Search"> <i class="fa-solid fa-xmark"></i> </button> </div> </div> <!-- Floating Scroll-to-Top/Bottom and Percentage Widget (Circular with SVG progress ring) --> <div id="scroll-widget" class="scroll-widget circular"> <svg class="scroll-progress-svg" width="48" height="48"> <circle class="scroll-progress-bg" cx="24" cy="24" r="21" stroke-width="3" fill="none"></circle> <circle id="scroll-progress-bar" class="scroll-progress-bar" cx="24" cy="24" r="21" stroke-width="3" fill="none" stroke-dasharray="132" stroke-dashoffset="132"></circle> </svg> <div class="scroll-content"> <i id="scroll-widget-icon" class="fa-solid fa-arrow-down"></i> <span id="scroll-widget-pct-num" class="scroll-pct-text">0%</span> </div> </div> <!-- Guard: initialise global function map as early as possible --> <script>
+      window.__nm = Object.create(null);
+    </script> <!-- Module A: Theme + Drawer init (Security Module Part 1: sets _nm.h) --> <script type="module" src="/_astro/ThemeManager.CdUsF-Tf.js"></script> <!-- Module B: Search overlay + Announcement (Security Module Part 2: sets _nm.c) --> <script type="module" src="/_astro/SearchWidget.CR1K-h29.js"></script>  <!-- Client-side Logic Script --> <script type="module" src="/_astro/Layout.Dz0cb9lr.js"></script> </body> </html>
