@@ -1,4 +1,4 @@
-# TGNAV - Telegram频道群组导航
+# TGNAV - Telegram导航
 
 TGNAV (Telegram Navigation) - Telegram频道群组机器人导航。收录Telegram上的优质公开频道、群组、机器人，打造高质量的Telegram导航平台。从20000+热门资源中精心筛选，为您提供更精彩、更安全的Telegram导航服务！
 
@@ -10,11 +10,22 @@ TGNAV分为三个模块：频道导航、群组导航、机器人导航，分别
 
 ### 网站地址
 
-[频道导航](https://www.tgnav.org/) | [群组导航](https://www.tgnav.org/group/) | [机器人导航](https://www.tgnav.org/robot/)
+[**TGNAV - Telegram导航**](https://www.tgnav.org/) | 更多信息请查看： [关于网站](https://www.tgnav.org/about/)
 
-更多信息请查看： [关于网站](https://www.tgnav.org/about/)
+由TGNAV打造的高质量Telegram知识库： [TGwiki](https://github.com/tgnav/tgwiki/) | [传送门](https://wiki.tgnav.org/)
 
-由TGNAV打造的高质量Telegram知识库： [TGwiki](https://github.com/tgnav/tgwiki/) | [传送门](https://www.tgnav.org/tgwiki/)
+### 技术栈
+
+- HTML
+- JavaScript
+- CSS
+- Node.js
+- Astro
+- Cloudflare
+- GitHub Pages
+- Algolia
+- Python
+- Telegram Bot API
 
 ### 赞助我们
 
@@ -24,7 +35,7 @@ TGNAV的维护需要一定的人力物力，在此过程中离不开大家的支
 
 ### 源码使用
 
-本网站已开源，您可以下载源代码或直接fork本仓库创建副本。
+本网站已开源，您可以下载源代码或直接fork本仓库创建副本。开源代码仅用于审查安全问题，禁止违规搭建仿冒钓鱼网站。
 
 **使用/修改网站源代码请遵守 [GPL-3.0开源协议](https://github.com/tgnav/tgnav.github.io/blob/main/LICENSE) ，感谢您的配合！**
 
