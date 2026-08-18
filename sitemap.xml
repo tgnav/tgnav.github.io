@@ -2,43 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.tgnav.org/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/group/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/robot/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/about/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/enroll/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/资讯新闻/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -289,6 +289,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/guabase_tg/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/cg12316/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/xiangyan91copy/</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -349,6 +361,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/xwtt11/</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/xiaozhangdubao/</loc>
     <lastmod>2026-07-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -403,8 +421,8 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.tgnav.org/detail/testflightcn/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <loc>https://www.tgnav.org/detail/zaihuapd/</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -584,7 +602,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/影音资源/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -884,7 +902,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/资源分享/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1063,6 +1081,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/xmresoft/</loc>
+    <lastmod>2026-08-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/lanren_6688/</loc>
     <lastmod>2026-07-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -1076,13 +1100,25 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/geekshare/</loc>
-    <lastmod>2026-07-06</lastmod>
+    <lastmod>2026-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/pangtouy/</loc>
     <lastmod>2025-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/lxtx5/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/oupaifadianzhan/</loc>
+    <lastmod>2026-07-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1099,8 +1135,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/bpapk/</loc>
+    <lastmod>2026-07-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/qiuyuezt/</loc>
     <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/zygs123/</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1112,7 +1160,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/txwl666/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1154,7 +1202,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/ios资源/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1346,7 +1394,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/软件综合/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1411,6 +1459,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/zy_tribe/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/fun_exe/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -1460,7 +1514,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/知识学习/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1616,13 +1670,13 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/搞笑趣味/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/acgdaily/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-08-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1683,6 +1737,12 @@
   <url>
     <loc>https://www.tgnav.org/detail/ruheyushadiaoxiangchu/</loc>
     <lastmod>2026-07-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/piaokeshe/</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -1760,7 +1820,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/书报刊漫/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -1976,7 +2036,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/博客杂谈/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2163,6 +2223,12 @@
   <url>
     <loc>https://www.tgnav.org/detail/juzhossn/</loc>
     <lastmod>2026-03-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/waterchisato/</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2414,7 +2480,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/壁纸图片/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -2648,7 +2714,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/girlsfe/</loc>
-    <lastmod>2026-06-30</lastmod>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -2845,6 +2911,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/zypapk/</loc>
+    <lastmod>2026-07-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/steampj/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -2918,7 +2990,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/机场测试/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3121,6 +3193,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/chongshengvpn/</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/changfengchannel/</loc>
     <lastmod>2026-07-08</lastmod>
     <changefreq>weekly</changefreq>
@@ -3248,13 +3326,19 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/achansp/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://www.tgnav.org/detail/addlist_x/</loc>
     <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/bzpick/</loc>
+    <lastmod>2026-07-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3308,7 +3392,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/channel/nsfw/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3321,6 +3405,12 @@
   <url>
     <loc>https://www.tgnav.org/detail/pixiv_top50_r18/</loc>
     <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/yuri0rs/</loc>
+    <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3373,6 +3463,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/sarte/</loc>
+    <lastmod>2026-07-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/zijianzhang710/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -3403,8 +3499,26 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/moli_r18/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/sizukon/</loc>
     <lastmod>2026-06-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/erogamestorage/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/butters_share/</loc>
+    <lastmod>2026-07-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -3452,7 +3566,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/group/兴趣社群/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3577,6 +3691,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/zhexue_cn/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/hanfupure/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -3680,7 +3800,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/group/软件社群/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -3825,6 +3945,12 @@
   <url>
     <loc>https://www.tgnav.org/detail/mooguu_group1/</loc>
     <lastmod>2026-07-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.tgnav.org/detail/hifinihuzhu/</loc>
+    <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -4243,6 +4369,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.tgnav.org/detail/jaylenngxbuhuox/</loc>
+    <lastmod>2026-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.tgnav.org/detail/botfather/</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -4382,7 +4514,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/robot/消息收发/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -4664,7 +4796,7 @@
   </url>
   <url>
     <loc>https://www.tgnav.org/robot/群组管理/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
