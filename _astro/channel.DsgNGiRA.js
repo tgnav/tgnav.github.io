@@ -1,0 +1,1 @@
+document.querySelectorAll(".md-chip, .smooth-scroll").forEach(e=>{e.addEventListener("click",r=>{const t=e.getAttribute("href");if(!t||!t.startsWith("#"))return;r.preventDefault();const o=document.querySelector(t);if(o){const n=o.getBoundingClientRect().top+window.scrollY-88;window.scrollTo({top:n,behavior:"smooth"})}})});
